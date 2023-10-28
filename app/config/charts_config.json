@@ -1,0 +1,49 @@
+{
+    "Scatter": {
+        "data_input": [
+            {"type": "both", "name": "x", "text": "X"}, 
+            {"type": "both", "name": "y", "text": "Y"}, 
+            {"type": "both+empty", "name": "color", "text": "Color by"}
+        ]
+    }, 
+    "Scatter 3d": {
+        "data_input": [
+            {"type": "both", "name": "x", "text": "X"}, 
+            {"type": "both", "name": "y", "text": "Y"}, 
+            {"type": "both", "name": "z", "text": "Z"}, 
+            {"type": "both+empty", "name": "color", "text": "Color by"}
+        ]
+    }, 
+    "Bar": {
+        "data_input": [
+            {"type": "category", "name": "x", "text": "X"}
+        ]
+    },
+    "Histogram": {
+        "data_input": [
+            {"type": "number", "name": "x", "text": "X"}
+        ]
+    }, 
+    "Violin": {
+        "data_input": [
+            {"type": "both", "name": "x", "text": "X"}, 
+            {"type": "both", "name": "y", "text": "Y"}, 
+            {"type": "", "name": "color", "text": "Color"}
+        ]
+    }, 
+    "Line": {
+        "data_input": [
+            {"type": "both", "name": "x", "text": "X"}, 
+            {"type": "both", "name": "y", "text": "Y"}, 
+            {"type": "both+empty", "name": "color", "text": "Color by"}
+        ]
+    }, 
+    "Area": {
+        "data_input": [
+            {"type": "both", "name": "x", "text": "X"}, 
+            {"type": "both", "name": "y", "text": "Y"}, 
+            {"type": "both+empty", "name": "color", "text": "Color by"}, 
+            {"type": "both+empty", "name": "line group", "text": "Line group"}
+        ]
+    }
+}
