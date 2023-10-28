@@ -93,9 +93,6 @@ def create_chart_html():
 def generate_all():
 
     res = request.values.getlist("data[]")
-    print(1, request.values)
-    print(2, request.data)
-    print(3, request.form)
     heading = request.values.get("heading")
     comment = request.values.get("comment")
 
